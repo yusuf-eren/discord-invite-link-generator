@@ -1,0 +1,32 @@
+{
+  "name": "@yusuferen/discord-invite-link-generator",
+  "version": "1.0.1",
+  "description": "",
+  "main": "app.ts",
+  "files": [
+    "build/**/*"
+  ],
+  "scripts": {
+    "clean": "del build",
+    "build": "npm run clean && tsc",
+    "pub": "npm version patch && npm run build && npm publish"
+  },
+  "keywords": [
+    "discord invite generator",
+    "discord invite link",
+    "discord",
+    "discord link",
+    "discord invite link generator"
+  ],
+  "author": "Yusuf Eren",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node-fetch": "^2.6.2",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.3"
+  }
+}
