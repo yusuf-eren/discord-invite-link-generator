@@ -9,7 +9,7 @@
   "scripts": {
     "clean": "del build",
     "build": "npm run clean && tsc",
-    "pub": "npm version patch && npm run build && npm publish"
+    "pub": "npm version patch && npm publish --access public"
   },
   "keywords": [
     "discord invite generator",
