@@ -28,6 +28,6 @@ inviteGenerator.createInviteLink("./inviteLinks.txt", 1, 5, 1);
 2. Q: Can I automate this with my mailing server? A: Yes, it is possible. If you are using third party mail sender it will be easier. As an example; integrate it with senderblue API. So you can send the links in successful order emails.
 
 ### Contact: erenyusuf170@gmail.com
-
+### Repo: https://github.com/yusuf-eren/discord-invite-link-generator
 # Final words
 If you liked the application please give it a star :)
