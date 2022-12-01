@@ -13,6 +13,7 @@ npm install @yusuferen/discord-invite-link-generator
 ```
 create an instance of the class
 ```
+import { DiscordInvite } from '@yusuferen/discord-invite-link-generator'
 const inviteGenerator = new DiscordInvite("<YOUR-DISCORD-TOKEN>", "YOUR-CHANNEL-ID");
 ```
 ### We have 4 different params here,
